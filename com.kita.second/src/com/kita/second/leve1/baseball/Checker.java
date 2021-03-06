@@ -2,7 +2,7 @@ package com.kita.second.leve1.baseball;
 
 public class Checker {
 	
-	static int cnt=0;
+	private static int cnt=0;
 	
 	public static void	check(int[] inarr,int[] randomarr) {
 		int strike = 0;

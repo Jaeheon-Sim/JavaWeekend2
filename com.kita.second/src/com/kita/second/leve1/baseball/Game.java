@@ -4,6 +4,7 @@ public class Game {
 	
 	public static void main(String[] args) {
 		
+		
 		int[] randomarr= {0,0,0};
 		int[] inarr= {0,0,0};
 		

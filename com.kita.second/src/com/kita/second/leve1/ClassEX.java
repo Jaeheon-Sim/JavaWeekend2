@@ -5,6 +5,19 @@ public class ClassEX {
 	int field1;
 	String field2;
 	int[] field3;
+	
+	int field4;
+	static int field5;
+	
+	void method4() {}
+	static void method5() {}
+	
+	static void methodTest() {
+	
+		field5 = 10;
+		method5();
+	}
+	
 	//생성자
 	public ClassEX(int field1) {
 		this.field1=field1;

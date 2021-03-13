@@ -10,9 +10,7 @@ public class Animal {
 		this.age=age;
 	}
 	
-	private void method() {
-		
-	}
+	
 	
 	void bark() {
 		

@@ -2,17 +2,18 @@ package com.kita.second.level2;
 
 public class NetflixTest {
 	public static void main(String[] args) {
-		Game game = new Game("sdfsdf");
-		game = new Ow("sdf");
-		game = new Bg("Sdfv");
+		Viewer rv = new Viewer();
+		rv.chooseNew();
 		
-		Netflix nf = new Drama("DRAMA");
-		nf=new Movie("movie");
-//		nf = new Comedy("comedy");
 		
-	
-	
+		ProGamer sim = new ProGamer();
+		Game gm = new Game();
+		Bg bg = new Bg();
+		Ow ow = new Ow();
+		sim.work(bg);
+		sim.work(ow);
+		sim.work(gm);
 		
-	
+		
 	}
 }

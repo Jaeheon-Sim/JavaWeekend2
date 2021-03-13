@@ -5,11 +5,15 @@ public class MagicianTest {
 		
 	Magician m = new Magician();
 	m.attack();
+	
 	System.out.println(m.hp);
 	m.teleport();
 	m.jump();
+	
 	Adventurer a = new Adventurer();
 	a.attack();
+	
 	Adventurer.a();
+	
 	}
 }

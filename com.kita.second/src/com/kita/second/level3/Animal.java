@@ -13,14 +13,12 @@ public abstract class Animal {
 		
 		
 		
-		void bark() {
+		void breathe() {
 				
-			System.out.println("짖는다");
+			System.out.println("숨쉰다");
 		}
 		
-		void cry() {
-			System.out.println("운다");
-		}
+		abstract void cry(); 		
 
 		
 		

@@ -6,11 +6,15 @@ public class MyBall {
 	
 	public static void inputarr(int arr[]) {
 		
-		Scanner scan = new Scanner(System.in);
-
+	
+		
 		for(int i=0;i<3;i++) {
+			Scanner scan = new Scanner(System.in);	
 			System.out.print("입력:");
 			arr[i]=scan.nextInt();
+			
 		}
-	} 
+		
+	}
+
 }

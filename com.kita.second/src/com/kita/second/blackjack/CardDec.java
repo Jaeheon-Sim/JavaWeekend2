@@ -1,8 +1,12 @@
 package com.kita.second.blackjack;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class CardDec {
 	
-	int[] cardDec = new int[52];
+	private List<Card> arr= new ArrayList<>();
+	
 	
 	public int cardPicker() {
 		int card = (int)(Math.random()*(52-0+1)+1);
